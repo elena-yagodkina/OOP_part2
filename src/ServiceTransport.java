@@ -1,3 +1,3 @@
 public interface ServiceTransport {
-  void check();
+  void service();
 }

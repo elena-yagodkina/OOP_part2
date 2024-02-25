@@ -1,15 +1,12 @@
-public class Truck extends MotorTransport {
+public class Truck extends Transport {
   public Truck(String modelName, int wheelsCount) {
-    super(modelName, wheelsCount);
-  }
-
-  public void checkTrailer() {
-    System.out.println("Проверяем прицеп");
+    super(modelName, 6);
   }
 
   @Override
-  public void check() {
-    super.check();
+  public void service() {
+    super.service();
+    checkEngine();
     checkTrailer();
   }
 }
