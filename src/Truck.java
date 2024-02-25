@@ -1,6 +1,6 @@
 public class Truck extends Transport {
   public Truck(String modelName, int wheelsCount) {
-    super(modelName, 6);
+    super(modelName, wheelsCount);
   }
 
   @Override
